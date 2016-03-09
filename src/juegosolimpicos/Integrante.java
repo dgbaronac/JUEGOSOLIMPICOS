@@ -11,61 +11,24 @@ package juegosolimpicos;
  */
 import java.util.*;
 
-public class Delegacion {
+public class Integrante {
+    private String Nombre;
+    private String Apellido;
     
-    
-    private String Pais;
-    private int numDeportistas;
-    private int medOro;
-    private int medPlata;
-    private int medBronce;
-
-    public Delegacion(String Pais, int numDeportistas, int medOro, int medPlata, int medBronce) {
-        this.Pais = Pais;
-        this.numDeportistas = numDeportistas;
-        this.medOro = medOro;
-        this.medPlata = medPlata;
-        this.medBronce = medBronce;
-    }
-    
-    public String getPais() {
-        return Pais;
+    public String getNombre() {
+        return Nombre;
     }
 
-    public void setPais(String Pais) {
-        this.Pais = Pais;
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
     }
 
-    public int getNumDeportistas() {
-        return numDeportistas;
+    public String getApellido() {
+        return Apellido;
     }
 
-    public void setNumDeportistas(int numDeportistas) {
-        this.numDeportistas = numDeportistas;
-    }
-
-    public int getMedOro() {
-        return medOro;
-    }
-
-    public void setMedOro(int medOro) {
-        this.medOro = medOro;
-    }
-
-    public int getMedPlata() {
-        return medPlata;
-    }
-
-    public void setMedPlata(int medPlata) {
-        this.medPlata = medPlata;
-    }
-
-    public int getMedBronce() {
-        return medBronce;
-    }
-
-    public void setMedBronce(int medBronce) {
-        this.medBronce = medBronce;
+    public void setApellido(String Apellido) {
+        this.Apellido = Apellido;
     }
     
     
